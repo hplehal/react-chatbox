@@ -8,11 +8,11 @@ const Channel = () => {
     return(
         <div className="Channel">
         <div className="ChannelMain">
-            <ChannelInfo/>
-            <Messages/>
-            <ChatInputBox/>
+            <ChannelInfo />
+            <Messages />
+            <ChatInputBox />
         </div>
-            <Members/>
+            <Members />
       </div>
     )
 }
