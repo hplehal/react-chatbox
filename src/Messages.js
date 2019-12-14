@@ -10,7 +10,7 @@ const Messages = () => {
             {
               messages.map((message, index)=>{
                   return index === 0  ?  (
-                    <div>
+                    <div key = {message.id}>
                       <div className="Day">
                         <div className="DayLine" />
                         <div className="DayText">12/6/2018</div>
@@ -27,7 +27,7 @@ const Messages = () => {
                         </div>
                       </div>
                     </div>): 
-                    (<div>
+                    (<div key = {message.id}>
                       <div className="Message no-avatar">
                         <div key ={message.id} className="MessageContent">{message.text}</div>
                       </div>

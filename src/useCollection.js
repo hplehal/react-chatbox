@@ -21,7 +21,7 @@ const useCollection = (path, orderBy) => {
             }));
             setDocs(docs);
             });
-        }, []);
+        },[]);
       //return state docs!
       return docs;
 }
